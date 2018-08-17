@@ -90,7 +90,7 @@ void loop(){
           break;
         }
         case COMMAND_SPEED_DOWN: {
-          if(cur_speed > 100) {
+          if(cur_speed > 150) {
             cur_speed -= 50;
             move(cur_direction, cur_speed);
           }
